@@ -7,7 +7,6 @@ class EventController extends Controller
 {
    public function index(){
     $events = Event::all();
-
     return view('home', ['events' => $events]);
    }
 
@@ -15,14 +14,14 @@ class EventController extends Controller
     return view('events.create');
    }
 
-   public function store($request){
-    $event = new Event;
+//    public function store($request){
+//     // $event = new Event;
 
-    $event->title = $request -> title;
-    $event->city = $request -> city;
-    $event->description = $request -> description;
+//     // $event->title = $request -> title;
+//     // $event->city = $request -> city;
+//     // $event->description = $request -> description;
 
-    $event->save();
-    return redirect('/');
-   }
+//     // $event->save();
+//     // return redirect('/');
+//    }
 }

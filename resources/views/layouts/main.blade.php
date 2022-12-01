@@ -39,7 +39,7 @@
                                 <a class="nav-link" href="/">Entrar</a>
                             </li>
                         </ul>
-                      </div>
+                    </div>
                 </div>
             </nav>
         </header>

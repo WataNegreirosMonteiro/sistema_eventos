@@ -4,5 +4,8 @@
 
 body{
     min-width: 100vh;
+}
 
+#search-container{
+    background-image: url('../img/showtalisma.jpg');
 }

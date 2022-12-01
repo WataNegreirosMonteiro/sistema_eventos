@@ -4,7 +4,7 @@
 <div id="search-container" class="col-md-12">
     <h1>Busque um evento</h1>
     <form action="">
-        <input type='text' class="form-control" placeholder="Buscar... "    >
+        <input type='text' id='search' class="form-control" placeholder="Buscar... "    >
     </form>
 </div>
 <div id="events-container" class="col-md-12">
